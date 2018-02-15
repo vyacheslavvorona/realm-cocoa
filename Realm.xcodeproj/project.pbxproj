@@ -126,7 +126,7 @@
 		1AD397D61F730340002AA897 /* partial_sync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AD397D21F73032A002AA897 /* partial_sync.cpp */; };
 		1AD6E7A11E8C217000D4C8B4 /* RLMSyncPermissionResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6E79F1E8C217000D4C8B4 /* RLMSyncPermissionResults.mm */; };
 		1AD6E7A31E8C218F00D4C8B4 /* RLMSyncPermissionResults.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6E79F1E8C217000D4C8B4 /* RLMSyncPermissionResults.mm */; };
-		1AD6E7A61E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6E7A51E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.m */; };
+		1AD6E7A61E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6E7A51E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.mm */; };
 		1ADE09371E897BCA008AB1D3 /* sync_permission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE09351E897BCA008AB1D3 /* sync_permission.cpp */; };
 		1ADE09391E897BEF008AB1D3 /* sync_permission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE09351E897BCA008AB1D3 /* sync_permission.cpp */; };
 		1ADE093E1E897EE9008AB1D3 /* RLMSyncPermission.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1ADE093C1E897EE9008AB1D3 /* RLMSyncPermission.mm */; };
@@ -680,7 +680,7 @@
 		1AD397D31F73032A002AA897 /* partial_sync.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = partial_sync.hpp; path = sync/partial_sync.hpp; sourceTree = "<group>"; };
 		1AD6E79E1E8C217000D4C8B4 /* RLMSyncPermissionResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMSyncPermissionResults.h; sourceTree = "<group>"; };
 		1AD6E79F1E8C217000D4C8B4 /* RLMSyncPermissionResults.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RLMSyncPermissionResults.mm; sourceTree = "<group>"; };
-		1AD6E7A51E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLMPermissionsAPITests.m; path = Realm/ObjectServerTests/RLMPermissionsAPITests.m; sourceTree = "<group>"; };
+		1AD6E7A51E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RLMPermissionsAPITests.mm; path = Realm/ObjectServerTests/RLMPermissionsAPITests.mm; sourceTree = "<group>"; };
 		1ADE09351E897BCA008AB1D3 /* sync_permission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sync_permission.cpp; path = sync/sync_permission.cpp; sourceTree = "<group>"; };
 		1ADE09361E897BCA008AB1D3 /* sync_permission.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = sync_permission.hpp; path = sync/sync_permission.hpp; sourceTree = "<group>"; };
 		1ADE093B1E897EE9008AB1D3 /* RLMSyncPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMSyncPermission.h; sourceTree = "<group>"; };
@@ -1404,7 +1404,7 @@
 				1AA5AEA21D98CA5300ED8C27 /* Utility */,
 				1A2713D51E3BBAC4001F6BFC /* RLMAncillaryObjectServerTests.m */,
 				E8267FF01D90B8E700E001C7 /* RLMObjectServerTests.mm */,
-				1AD6E7A51E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.m */,
+				1AD6E7A51E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.mm */,
 				3F73BC881E3A876600FE80B6 /* RLMSyncSessionRefreshHandle+ObjectServerTests.h */,
 				3F73BC891E3A876600FE80B6 /* RLMSyncSessionRefreshHandle+ObjectServerTests.m */,
 				1AA5AE9D1D98A6D800ED8C27 /* RLMSyncTestCase.h */,
@@ -2438,7 +2438,7 @@
 				1A2713D71E3BBAC8001F6BFC /* RLMAncillaryObjectServerTests.m in Sources */,
 				1A2D7A521DA5BCEC006AD7D6 /* RLMMultiProcessTestCase.m in Sources */,
 				E8267FF11D90B8E700E001C7 /* RLMObjectServerTests.mm in Sources */,
-				1AD6E7A61E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.m in Sources */,
+				1AD6E7A61E8C2BDF00D4C8B4 /* RLMPermissionsAPITests.mm in Sources */,
 				1AF64DCF1DA3042B0081EB15 /* RLMSyncManager+ObjectServerTests.m in Sources */,
 				3F73BC911E3A877300FE80B6 /* RLMSyncSessionRefreshHandle+ObjectServerTests.m in Sources */,
 				1AA5AE9C1D98A68E00ED8C27 /* RLMSyncTestCase.mm in Sources */,
